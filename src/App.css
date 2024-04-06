@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ .appcontainer{
+    background-color:#2f3640;
+    height:100vh;
+     Width:100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+} 
+
+.weathercontainer{
+    background-color: #fff;
+    width:350px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1)
+  
+
+}

@@ -1,0 +1,62 @@
+
+.windspeedimg,.humidityimg{
+    width:40px;
+
+}
+
+.weathericon{
+    text-align: center;
+}
+.temperature{
+    text-align: center;
+   font-size: 32px;
+   font-weight: 600;
+}
+
+.city{
+    text-align: center;
+      font-size: 30px;
+   font-weight: 600;
+   color:orange;
+   margin-top: 5px;
+}
+
+.country{
+    text-align: center;
+        font-size: 22px;
+   font-weight: 200;
+   margin-top: 5px;
+}
+
+.latitudecontainer{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+       margin-top: 8px;
+
+}
+
+.latitude{
+   display: flex;
+   flex-direction:column;
+   gap:5px;
+
+}
+
+.longitude{
+  display: flex;
+   flex-direction:column;
+    gap:5px;
+  
+}
+
+.humiditycontainer{
+    display:flex;
+   justify-content: space-between;
+margin-bottom: 8px;
+margin-top:30px;
+}
+.humidity,.windspeed{
+    display:flex;
+    flex-direction: column;
+}
